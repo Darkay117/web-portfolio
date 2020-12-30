@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/80619f9a2e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+<!--     <link rel="stylesheet" href="css/normalize.css" type="text/css">
+ -->    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Joseangel Rojas</h1>
+                <p>Desarrollador Web</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-buscador" id="barra-buscador" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Personas</a>
+                <a href="#">Animal</a>
+                
+            </div>
+
+        </header>
+            <section class="grid" id="grid">
+                <div class="item" 
+                data-categoria="ciudades" 
+                data-etiquetas="ciudades autos carros calles"
+                data-descripcion="a"
+                >
+                    <div class="item-content">
+                        <img src="img/ciudad1.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+                <div class="item" 
+                data-categoria="personas" 
+                data-etiquetas="personas mujeres"
+                data-descripcion="b"
+                >
+                    <div class="item-content">
+                        <img src="img/persona1.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+                <div class="item" 
+                data-categoria="animal" 
+                data-etiquetas="animal leon"
+                data-descripcion="c"
+                >
+                    <div class="item-content">
+                        <img src="img/animal1.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+                <div class="item" 
+                data-categoria="personas" 
+                data-etiquetas="personas mujeres"
+                data-descripcion="d"
+                >
+                    <div class="item-content">
+                        <img src="img/persona2.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+                <div class="item" 
+                data-categoria="ciudades" 
+                data-etiquetas="ciudades autos carros calles"
+                data-descripcion="e"
+                >
+                    <div class="item-content">
+                        <img src="img/ciudad2.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+                <div class="item" 
+                data-categoria="animal" 
+                data-etiquetas="animal panda blanco negro"
+                data-descripcion="f"
+                >
+                    <div class="item-content">
+                        <img src="img/animal2.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+                <div class="item" 
+                data-categoria="naturaleza" 
+                data-etiquetas="nateraleza verde planta plantas hojas vida"
+                data-descripcion="g"
+                >
+                    <div class="item-content">
+                        <img src="img/naturaleza1.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+                <div class="item" 
+                data-categoria="paisaje" 
+                data-etiquetas="paisaje agua naturaleza mar playas montañas"
+                data-descripcion="h"
+                >
+                    <div class="item-content">
+                        <img src="img/paisaje1.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+                <div class="item" 
+                data-categoria="paisaje" 
+                data-etiquetas="paisaje naturaleza rocas montañas"
+                data-descripcion="i"
+                >
+                    <div class="item-content">
+                        <img src="img/paisaje2.png" alt="" class="imagen">
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="overlay" id="overlay">
+                <div class="contenedor-img">
+                    <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                    <img src="" alt="">
+                </div>
+                <p class="descripcion"></p>
+            </section>
+            <footer class="contenedor">
+                
+                <div class="redes-sociales">
+                    <div class="contenedor-icono">
+                        <a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                        <div class="contenedor-icono">
+                            <a href="#" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                        <div class="contenedor-icono">
+                            <a href="#" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                </div>
+                <div class="creado-por">
+                    <p>Sitio diseñado por</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Joseangel Rojas</a>
+                </div>
+            </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="script/main.js"></script>
+</body>
+</html>
